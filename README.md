@@ -40,7 +40,6 @@ grove-dental-practice/
 ├── assets/
 │   ├── logo.svg        # Tooth + leaf monoline logo (single colour)
 │   └── images/
-│       ├── hero.jpg    # Hero treatment-room photo  [placeholder]
 │       └── about.jpg   # About candid-care photo     [placeholder]
 └── README.md
 ```
@@ -84,7 +83,7 @@ used.
 - **Real email address** (placeholder: `contact@grovedentalpractice.co.uk`)
 - Whether the practice is **currently accepting new patients** (NHS / private)
 - **Privacy policy, cookie policy and complaints procedure** content/links
-- **Hero and About photos** — swap the stock placeholders for real practice imagery
+- **About photo** — swap the stock placeholder for real practice imagery
 - **Team portraits** — currently tasteful monogram placeholders (see note below)
 
 ### Notes for review

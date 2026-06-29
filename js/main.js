@@ -78,6 +78,7 @@
   document.querySelectorAll('[data-carousel]').forEach((carousel) => {
     const track = carousel.querySelector('[data-track]');
     const slides = Array.from(track.children);
+    slides.forEach((s, i) => s.setAttribute('aria-label', `${i + 1} of ${slides.length}`));
     const dotsWrap = carousel.querySelector('[data-dots]');
     const prevBtn = carousel.querySelector('[data-prev]');
     const nextBtn = carousel.querySelector('[data-next]');
